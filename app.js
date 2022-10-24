@@ -19,7 +19,7 @@ app.get('*', (req, res) => {
 const startServer = async () => {
     try {
         await connectDB();
-        app.listen(process.env.SERVER_PORT, () => {
+        app.listen(process.env.PORT, () => {
             console.log(`Server is listening on port ${process.env.SERVER_PORT}`)
         });
     } catch (err) {
