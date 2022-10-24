@@ -1,6 +1,6 @@
 {
   "name": "task-manager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Task manager based on Node.js",
   "main": "app.js",
   "scripts": {
